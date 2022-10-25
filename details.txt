@@ -1,0 +1,35 @@
+php artisan make:model Customer --all
+php artisan make:model Invoice --all
+
+
+Model 
+Factory 
+Created migration 
+Seeder
+Request 
+Request Update
+Controller
+Policy
+
+
+   INFO  Model [C:\xampp\htdocs\laravel_api\app/Models/Invoice.php] created successfully.
+   INFO  Factory [C:\xampp\htdocs\laravel_api\database/factories/InvoiceFactory.php] created successfully.
+   INFO  Created migration [2022_10_18_175015_create_invoices_table].
+   INFO  Seeder [C:\xampp\htdocs\laravel_api\database/seeders/InvoiceSeeder.php] created successfully.
+   INFO  Request [C:\xampp\htdocs\laravel_api\app/Http/Requests/StoreInvoiceRequest.php] created successfully.
+   INFO  Request [C:\xampp\htdocs\laravel_api\app/Http/Requests/UpdateInvoiceRequest.php] created successfully.
+   INFO  Controller [C:\xampp\htdocs\laravel_api\app/Http/Controllers/InvoiceController.php] created successfully.        
+   INFO  Policy [C:\xampp\htdocs\laravel_api\app/Policies/InvoicePolicy.php] created successfully.
+
+
+
+   migrate and seed
+   php artisan migrate:fresh --seed
+
+
+   make resource to determing what user sees in json
+
+   php artisan make:resource CustomerResource
+
+
+   Create Filters folder
